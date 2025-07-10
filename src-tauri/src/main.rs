@@ -21,7 +21,7 @@ fn main() {
             let _window = tauri::WindowBuilder::new(
                 app,
                 "PakePlus",
-                tauri::WindowUrl::App("http://36.137.22.237:8085/".into()),
+                tauri::WindowUrl::App("http://36.137.22.237:8085".into()),
             )
             .initialization_script(include_str!("./extension/custom.js"))
             .title("PakePlus")
